@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE biblioteca [
+    <!ELEMENT biblioteca (seccion+)>
+    <!ELEMENT seccion (nombre, libro+)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT libro (titulo, autor, anio?)>
+    <!ELEMENT titulo (#PCDATA)>
+    <!ELEMENT autor (#PCDATA)>
+    <!ELEMENT anio (#PCDATA)>
+]>
+<biblioteca>
+    <seccion>
+        <nombre>Literatura Clásica</nombre>
+        <libro>
+            <titulo>Don Quijote de la Mancha</titulo>
+            <autor>Miguel de Cervantes</autor>
+            <anio>1605</anio>
+        </libro>
+        <libro>
+            <titulo>La Odisea</titulo>
+            <autor>Homero</autor>
+        </libro>
+    </seccion>
+    <seccion>
+        <nombre>Ciencia Ficción</nombre>
+        <libro>
+            <titulo>Dune</titulo>
+            <autor>Frank Herbert</autor>
+            <anio>1965</anio>
+        </libro>
+        <libro>
+            <titulo>Neuromante</titulo>
+            <autor>William Gibson</autor>
+        </libro>
+    </seccion>
+</biblioteca>

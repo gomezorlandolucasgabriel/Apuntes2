@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE liga SYSTEM "tienda.dtd">
+<tienda>
+     <nombre>Tienda de Paco</nombre>
+        <pokemon>
+            <nombre>Charmander</nombre>
+            <tipo>Fuego</tipo>
+            <precio>1920€</precio>
+        </pokemon>
+        <pokemon>
+            <nombre>Magdaleno</nombre>
+            <tipo>harina</tipo>
+            <precio> 1000€ </precio>
+
+     </pokemon>
+    
+    
+</tienda>
