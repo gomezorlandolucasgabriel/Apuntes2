@@ -1,4 +1,0 @@
-#!/bin/bash
-
-ls -1A "$1" | wc -l
-wc -m < "$2"
